@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+streamlit-authenticator
+PyPDF2
+pandas
+PyYAML
+st-gsheets-connection
+st-supabase-connection
