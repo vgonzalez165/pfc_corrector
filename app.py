@@ -18,8 +18,10 @@ genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 conn = st.connection(
     "supabase",
     type=SupabaseConnection,
-    url="https://ovxzfgyyixbfawuobovq.supabase.co",
-    key="sb_publishable_-dtEZ32pPPuTo8LHWCRm6g_Wf7n4SFY"
+    # url="https://ovxzfgyyixbfawuobovq.supabase.co",
+    url=st.secrets["url_supabase"],
+    # key="sb_publishable_-dtEZ32pPPuTo8LHWCRm6g_Wf7n4SFY"
+    key=st.secrets["key_supabase"]
 )
 
 

@@ -1,0 +1,34 @@
+credentials:
+  usernames:
+    tutor:
+      email: "tutor@mail.es"
+      name: "Profesor Tutor"
+      password: "$2b$12$CIUZInHouyAGjDexnWdPZe7g8yEM7KZIKoKJQsTve0E5M/dFb5wKG"
+      role: "profesor"
+    hcc:
+      email: "hcc@mail.com"
+      name: "Estudiante HCC"
+      password: "$2b$12$CIUZInHouyAGjDexnWdPZe7g8yEM7KZIKoKJQsTve0E5M/dFb5wKG"
+      role: "estudiante"
+      ciclo: "DAM"
+    ddr:
+      email: "ddr@mail.es"
+      name: "Estudiante DDR"
+      password: "$2b$12$CIUZInHouyAGjDexnWdPZe7g8yEM7KZIKoKJQsTve0E5M/dFb5wKG"
+      role: "estudiante"
+      ciclo: "DAM"
+    alumno_smr:
+      email: "alumno.smr@mail.es"
+      name: "Estudiante SMR"
+      password: "XXX"
+      role: "estudiante"
+      ciclo: "SMR"
+
+cookie:
+  expiry_days: 30
+  key: "firma_secreta_"
+  name: "pfc_auth_cookie"
+
+preauthorized:
+  emails:
+    - "yo@mail.es"
